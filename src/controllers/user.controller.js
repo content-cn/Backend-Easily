@@ -28,9 +28,7 @@ export default class UserController {
   logoutUser = (req, res) => {
     req.session.userEmail = null;
     res.clearCookie("lastVisit");
-    req.session.destroy((err) => {
-      if (err) console.log(err);
-      else res.redirect("/login");
-    });
+    req.session = null;
+    res.redirect("/login");
   };
 }
