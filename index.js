@@ -3,7 +3,7 @@ import path from "path";
 import expressLayouts from "express-ejs-layouts";
 import jobRouter from "./src/routes/job.route.js";
 import userRouter from "./src/routes/user.route.js";
-import session from "express-session";
+import session from "cookie-session";
 import { lastVisit } from "./src/middlewares/lastVisitMiddleware.js";
 import cookieParser from "cookie-parser";
 const app = express();
