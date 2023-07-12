@@ -4,7 +4,7 @@ const jobs = [
     id: 1,
     job_category: "Tech",
     job_designation: "SDE",
-    job_location: "gurgao HR IND Remote",
+    job_location: "Gurgaon HR IND Remote",
     company_name: "Coding Ninjas",
     salary: "14-20lpa",
     apply_by: "30 Aug 2023",
